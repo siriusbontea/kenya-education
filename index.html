@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Education in Kenya</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="icon" type="image/svg" href="svg/Flag_of_Kenya.svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Uncomment if using Mapbox JS instead of Leaflet  -->
+    <!-- <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' /> -->
+
+
+    <!-- Uncomment if using Leaflet instead of Mapbox JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet" type="text/css" />
+
+    <link href='css/styles.css' rel='stylesheet' />
+
+</head>
+
+<body>
+    <!-- Page DIVs start here -->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="content" class="col-md-3 py-2 overflow-scroll">
+                <img src="svg/Flag_of_Kenya.svg" class="flag">
+                <h1 class="center">Education in Kenya</h1>
+                <!-- <div id="gradeIndicator">DIV for the grade indicator</div> -->
+                <div class="indented">
+                    <p>
+                        What does the data tell us about Kenyan’s education system in 2014? It is readily apparent that
+                        the ratio of boys to
+                        girls attending school is generally weighted slightly higher toward boys. Furthermore, the data
+                        consistently shows that
+                        school attendance from first grade through eighth grade drops dramatically across all counties.
+                        For example, Turkana
+                        County in northwestern Kenya shows the attendance of 22,406 girls and 26,444 boys in first
+                        grade, but only 3,175 girls
+                        and 5,031 boys in eighth grade—which is a difference of <span class="red-bold">86%</span> for
+                        girls and <span class="red-bold">81%</span> for boys. Though each grade level in the 2014
+                        snapshot
+                        belongs to different cohorts, following the data from one cohort from first through eighth-grade
+                        results in a similar pattern.
+                    <p>
+                        Compared to European or East Asian standards, Kenya’s education system lags far behind
+                        in quality and
+                        outcome.
+                        However, in 2017, the World Economic Forum (WEF) ranked Kenya the <a
+                            href="https://www.weforum.org/agenda/2017/05/africa-jobs-skills-in-charts/">highest in
+                            Africa</a> for overall
+                        quality of education. The WEF’s <a
+                            href="https://reports.weforum.org/human-capital-report-2016/">Human Capital
+                            Index</a> is a metric that attempts to quantify the level at which countries optimise the
+                        workforce by taking
+                        into account parameters such as education, age, available work, etc. The WEF ranked Africa at
+                        55% compared to the
+                        global average of
+                        65%—with Kenya rated within the top 10 Sub-Saharan countries at a rate of 57.8%. The WEF ranked
+                        Kenya 102 out of the
+                        130
+                        countries worldwide.</p>
+                </div>
+
+                <h2>What needs to improve?</h2>
+
+                <div class="indented">
+                    <p>Why link education to the WEF’s Human Capital Index? We’ll explore this connection further, but
+                        first, let’s look
+                        at
+                        the
+                        opening paragraph of an article published in <a href="https://medium.com/">Medium</a>
+                        titled <a
+                            href="https://medium.com/edwell/how-kenya-became-the-strongest-education-system-in-africa-70cdc72024c4">“How
+                            Kenya Became the Strongest Education System in Africa”</a> below:
+                    <blockquote
+                        cite="https://medium.com/edwell/how-kenya-became-the-strongest-education-system-in-africa-70cdc72024c4">
+                        “In 2017, the World Economic Forum rated Kenya’s education system as the strongest on the
+                        African continent. In
+                        2018,
+                        the World Bank ranked Kenya the top African country for education outcomes (1st out of 43
+                        mainland countries).
+                        In
+                        2019, a Kenyan was named the most outstanding teacher in the world and awarded a prestigious $1
+                        million prize.”
+                    </blockquote>
+                    Sounds fantastic, right? The article goes into further detail, expanding these ideas. However,
+                    getting the
+                    perspective of someone other than a Western Journalist brings a different perspective.
+                    </p>
+                    <p> Jonathan Mburugu is from Kenya and is the founder of <a
+                            href="https://schoolforafrica.org/">SchoolForAfrica.org</a>. His experiences and struggles,
+                        first as a
+                        student and later as a teacher and advocate for Kenyan schoolchildren, paints a much different
+                        picture. He
+                        describes the issues of national-level economic conditions and individual financial limitations
+                        as the major
+                        contributing factors facing the education system in Kenya. In particular, Mburugu explains that
+                        even though
+                        primary school education in Kenya is both <a
+                            href="https://schoolforafrica.org/education/education-and-system-of-education-in-kenya/">compulsory
+                            and
+                            free</a>, the government only pays for tuition—other expenses such as books and food are not
+                        covered.
+                        Furthermore, <a
+                            href="https://africacheck.org/fact-checks/factsheets/factsheet-cost-providing-truly-free-secondary-education-kenya#:~:text=So%20the%20vision%20of%20a,basic%20education%20and%20related%20expenditure.">challenges
+                            in Kenya’s education system</a> extend into secondary and beyond.</p>
+                    <p>
+                        The individual effort and hard work of Jonathan Mburugu brought him to where he is today. He
+                        continues to
+                        advocate for Kenya’s schoolchildren and hopes to further expand his educational initiatives to
+                        neighbouring
+                        African countries. Mburugu is right by highlighting financial issues as the cause of many of
+                        Kenya’s educational
+                        woes. Mburugu’s approach to solving these issues is also correct—that African problems must
+                        be solved from within Africa itself.
+                    </p>
+                    <p>Clearly, Mburugu is an intelligent, hard-working, and motivated individual, and a man of his
+                        calibre is often well-positioned
+                        to relocate to ‘greener pastures’ in Europe or the United States. Educated Africans,
+                        especially those that have studied abroad, often do not return to their home countries as it is
+                        easier to attain a better life by living as expatriates. The ramifications this
+                        so-called “brain drain” has on African countries is that they lose their best and brightest
+                        individuals which causes compounding disadvantages in economic, scientific, and social development.
+                        This phenomenon has been
+                        studied in-depth at various organisations such as the <a
+                            href="https://www.wilsoncenter.org/publication/brain-drain-africa-state-the-issue-and-possible-solutions">Wilson
+                            Center</a> in Washington, D.C. and Africa's <a
+                            href="https://mo.ibrahim.foundation/news/2018/brain-drain-bane-africas-potential">Mo Ibrahim
+                            Foundation</a>.
+                        These two organisations, as well as many others, agree on the best course of action: Africa
+                        needs to not only curb but also reverse the
+                        migration and brain drain in order to strive toward a more prosperous future. At a <a
+                            href="https://www.afdb.org/en/news-and-events/remarks-by-akinwumi-a-adesina-president-of-the-african-development-bank-at-the-g7-summit-may-26-27-2017-taormina-italy-17054">G7
+                            Summit in 2017</a>, Akinwumi A. Adesina, President of the African Development Bank, summed
+                        it up best:
+                    <blockquote
+                        cite="https://www.afdb.org/en/news-and-events/remarks-by-akinwumi-a-adesina-president-of-the-african-development-bank-at-the-g7-summit-may-26-27-2017-taormina-italy-17054">
+                        “Even insects migrate from where it is dark to where there is light. No wonder Africa’s youth –
+                        our assets –
+                        take huge risks migrating to Europe, looking for a better life. The future of Africa’s youth
+                        does not lie in
+                        migration to Europe; it should not be at the bottom of the Mediterranean; it lies in a
+                        prosperous Africa. We
+                        must create greater economic opportunities for our youth right at home in Africa.”</blockquote>
+                    </p>
+                </div>
+                <h3>Methodology, Tools, and Data Sources:</h3>
+
+                <ul>
+                    <li>Education statistical data for Kenyan enrollment across primary schools (grades 1 - 8) for the
+                        year 2014 comes from the <a
+                            href="https://www.opendata.go.ke/datasets/national-boys-and-girls-enrollments-per-class-for-primary-school-education">Kenya
+                            Open Data Portal</a>.</li>
+                    <li>
+                        <a
+                            href="https://africaopendata.org/dataset/kenya-counties-shapefile/resource/0b78f25e-494e-4258-96b8-a3ab2b35b121">Kenya
+                            County Shapefiles</a> from <a href="https://africaopendata.org/about">openAfrica</a> and
+                        processed through <a href="https://qgis.org/en/site/forusers/alldownloads.html#freebsd">QGIS
+                            3.24.2-Tisler</a> running on <a
+                            href="https://freebsdfoundation.org/freebsd-project/what-is-freebsd/">FreeBSD 13.1-RC6</a>
+                        for
+                        use
+                        with <a href="https://www.mapbox.com/">Mapbox</a>.
+                    </li>
+                    <li>Basemap customised with <a href="https://www.mapbox.com/mapbox-studio/">Mapbox Studio</a>.</li>
+                    <li>
+                        Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a
+                            href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a
+                            href="http://mapbox.com">Mapbox</a>.
+                    </li>
+                    <li>
+
+                        Code from <a href="https://leafletjs.com/SlavaUkraini/">Leaflet 1.7.1</a> used to create
+                        the interactive webmap.
+                    </li>
+                    <li>Code from <a href="https://github.com/mapbox/leaflet-omnivore">Leaflet Omnivore 0.3.1</a> used
+                        to
+                        parse CSV data for use
+                        with Leaflet.
+                    </li>
+                    <li>
+                        Code from <a href="https://d3js.org/">D3.js 7.7.4</a> used to create data visualisation for
+                        sparklines.
+                    </li>
+
+                    <li>
+                        Code from <a href="https://getbootstrap.com/">Bootstrap 5.1.3</a> used to create responsive
+                        framework
+                        for webpage.
+                    </li>
+                </ul>
+                <h3>Citations:</h3>
+                <ul>
+
+                    <li>World Economic Forum (WEF) – <a
+                            href="https://www.weforum.org/agenda/2017/05/africa-jobs-skills-in-charts/">Africa's Job
+                            Skills in Charts</a>.</li>
+
+                    <li>World Economic Forum (WEF) – <a
+                            href="https://reports.weforum.org/human-capital-report-2016/">Human Capital
+                            Index</a>.</li>
+
+                    <li>Medium – <a
+                            href="https://medium.com/edwell/how-kenya-became-the-strongest-education-system-in-africa-70cdc72024c4">"How
+                            Kenya
+                            Became the Strongest Education System in Africa"</a></li>
+
+                    <li>SchoolForAfrica.org – <a
+                            href="https://schoolforafrica.org/education/education-and-system-of-education-in-kenya/">Education
+                            and System of Education in Kenya</a>.</li>
+
+                    <li>Africa Check – <a
+                            href="https://africacheck.org/fact-checks/factsheets/factsheet-cost-providing-truly-free-secondary-education-kenya#:~:text=So%20the%20vision%20of%20a,basic%20education%20and%20related%20expenditure.">FACTSHEET:
+                            Cost of providing 'truly' free secondary education in Kenya</a>.</li>
+
+                    <li>Wilson
+                        Center – <a
+                            href="https://www.wilsoncenter.org/publication/brain-drain-africa-state-the-issue-and-possible-solutions">Brain
+                            Drain in Africa: State of the Issue and Possible Solutions</a>.</li>
+
+
+                    <li>Mo Ibrahim Foundation – <a
+                            href="https://mo.ibrahim.foundation/news/2018/brain-drain-bane-africas-potential">Brain
+                            drain: a bane to Africa's potential</a>.</li>
+
+                </ul>
+
+                <h3>Project Notes:
+                </h3>
+                <ul>
+                    <li>This webpage was built to meet requirements for Module 5 (Data-driven web mapping with D3) of
+                        the <a href="https://newmapsplus.github.io/map673/syllabus/">MAP 673: Programming For Web
+                            Mapping</a>
+                        course at the
+                        <a href="https://newmapsplus.as.uky.edu/">University of Kentucky</a>.
+                    </li>
+                </ul>
+                <h3>About the author:</h3>
+                <img id="avatar" class="center" src="site-data/graphics/profile_pic_bw.png">
+                <p id="bio">
+                    An artist, scientist, bibliophile, and autodidact at heart, Sirius enjoys applying these
+                    facets in his role of dad and husband first and foremost. He also finds happiness with
+                    spending time with <a class="dotted-underline">Shin'yū the Maltipoo<span><img
+                                src="site-data/graphics/shin-yu.jpg" alt="Fluffy Little Dog"></span></a>
+                    (Shin'yū or 親友 is the Japanese term for "best friend"). Sirius also enjoys calligraphy,
+                    metacognition, philosophy, and the pursuit of arcane knowledge regardless of the path it
+                    puts him on. He generally prefers Open Source Software solutions such as FreeBSD for daily
+                    computing, QGIS for cartography and geospatial analysis, GIMP and Inkscape for image
+                    manipulation. However, he is no stranger to proprietary solutions such as ArcGIS Pro, Adobe
+                    Photoshop and Illustrator.
+                </p>
+            </div>
+
+            <div class="col-md-9 p-0">
+                <div id="map"></div>
+                <!-- ui slider -->
+                <div id="slider" class="shadow-sm">
+                    <input type="range" class="form-range" min="1" max="8" value="1" step="1" />
+                </div>
+                <!-- ui slider grade level indicator -->
+                <div id="gradeIndicator">Grade 1</div>
+
+
+                <!-- legend -->
+                <div id="legend" class="shadow-sm p-3">
+                    <div class="leaflet-legend">
+                        <h5 class="mb-4">
+                            Number of <span class="girls">girl</span> and
+                            <span class="boys">boy</span> students enrolled by county
+                        </h5>
+                        <div class="legend-circles position-relative">
+                            <div class="legend-large position-absolute"></div>
+                            <div class="legend-small position-absolute"></div>
+                            <hr class="large" />
+                            <div class="legend-large-label position-absolute"></div>
+                            <hr class="small" />
+                            <div class="legend-small-label position-absolute"></div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary float-end">Legend</button>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer fixed-bottom bg-dark" id="footer">
+            <div class="row">
+                <div class="col-12 text-center social justify-content-center">
+                    <h6>𓅓 Copyright © <a href="https://siriusbontea.github.io/">Sirius T. Bontea</a> 2022 𓅓</h6>
+                    <a class="mx-2" href="https://www.linkedin.com/in/siriusbontea/"><i
+                            class="social-font fab fa-linkedin"></i></a>
+                    <a class="mx-2" href="https://github.com/siriusbontea"><i class="social-font fab fa-github"></i></a>
+                    <a class="mx-2"
+                        href="https://www.openstreetmap.org/user/Sirius%20T%20Bontea/history#map=3/43.94/-68.94"><i
+                            class="social-font fas fa-map"></i></a>
+                    <a class="mx-2" href="https://twitter.com/SiriusBontea"><i
+                            class="social-font fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/sirius.t.bontea"><i
+                            class="social-font fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <!-- Info class for sparkline -->
+    <div id="info" class="p-2 shadow">
+        <h4><span></span> County</h4>
+        <p class="girls mb-0">
+            girls <span></span>:
+            <span></span>
+        </p>
+        <p class="boys">
+            boys <span></span>:
+            <span></span>
+        </p>
+        <p class="trend">trend: grades 1 &ndash; 8</p>
+        <p>
+            <span id="girlspark"></span>
+        </p>
+        <p>
+            <span id="boyspark"></span>
+        </p>
+    </div>
+
+    <!-- JS added here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Uncomment if using Leaflet instead of Mapbox JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <!-- Omnivore JS for using CSV data -->
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <!-- D3 JS added -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.4.4/d3.min.js"
+        integrity="sha512-hnFpvCiJ8Fr1lYLqcw6wLgFUOEZ89kWCkO+cEekwcWPIPKyknKV1eZmSSG3UxXfsSuf+z/SgmiYB1zFOg3l2UQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src='js/app.js'></script>
+</body>
+
+</html>
