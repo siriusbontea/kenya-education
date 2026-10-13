@@ -21,16 +21,18 @@ p {
 .boys {
     /* background-color: #6e77b0; */
     background-color: #64dd17;
+    color: #000000;
 }
 
 .red-bold {
     font-style: bold;
-    color: red;
+    color: #b00000;
 }
 
 .girls {
     /* background-color: #d96d02; */
     background-color: #ffab40;
+    color: #000000;
 
 }
 
@@ -275,4 +277,8 @@ hr.large {
         display: block;
     }
    
+}
+
+h6 a {
+    color: #b8b0ff;
 }
